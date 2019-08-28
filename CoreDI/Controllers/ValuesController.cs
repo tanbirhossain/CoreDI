@@ -17,5 +17,8 @@ namespace CoreDI.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
             => _valueRepository.GetValues();
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> ChillMethod()
+            => _valueRepository.GetValues();
     }
 }

@@ -2,7 +2,6 @@
 
 namespace DAL
 {
-
     public class ValueRepository : IValueRepository
     {
         public string[] GetValues()
